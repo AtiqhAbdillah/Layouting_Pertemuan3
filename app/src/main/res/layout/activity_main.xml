@@ -8,7 +8,7 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <!-- Username -->
+    <!-- Usernamee -->
     <TextView
         android:id="@+id/tvUsername"
         android:layout_width="wrap_content"
