@@ -19,6 +19,7 @@ class DetailFotoActivity : AppCompatActivity() {
 
         // Terima data dari Intent MainActivity
         val namaAkun = intent.getStringExtra("extra_name")
+
         // Gunakan getIntExtra karena referensi drawable (R.drawable...) berupa angka Integer
         val fotoProfil = intent.getIntExtra("extra_foto", 0)
 

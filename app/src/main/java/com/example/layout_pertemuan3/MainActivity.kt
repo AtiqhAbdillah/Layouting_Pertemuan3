@@ -57,7 +57,6 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this@MainActivity, DetailFotoActivity::class.java)
 
                 intent.putExtra("extra_name", tvUsername.text.toString())
-
                 intent.putExtra("extra_foto", R.drawable.photo_profile)
 
                 startActivity(intent)
